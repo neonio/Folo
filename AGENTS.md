@@ -136,6 +136,13 @@ These classes map to the UIKit color variables (see `.cursor rules/color` and `a
 - When editing TypeScript, do not introduce `any`; keep types precise.
 - For UI, prefer CSS transitions for simple effects; use Framer Motion `m.*` only when needed.
 
+## Git collaboration rules
+
+- Default Git remote workflow: push branches to the user's fork (`origin`) only.
+- Do not create pull requests against the upstream repository by default.
+- If a pull request is needed, stop after pushing to the fork unless the user explicitly asks to create an upstream PR.
+- Treat `upstream` as read-only by default for fetch/rebase/comparison unless the user explicitly asks for an upstream-facing action.
+
 ## Context7 (up-to-date docs)
 
 - Use Context7 to fetch current library docs before using APIs prone to change.
